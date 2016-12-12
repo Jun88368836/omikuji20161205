@@ -12,6 +12,17 @@
 		68BC07731DF3F50C004C61AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68BC07711DF3F50C004C61AD /* Main.storyboard */; };
 		68BC07751DF3F50C004C61AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68BC07741DF3F50C004C61AD /* Assets.xcassets */; };
 		68BC07781DF3F50C004C61AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68BC07761DF3F50C004C61AD /* LaunchScreen.storyboard */; };
+		68BC07841DF3F5BE004C61AD /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68BC07801DF3F5BE004C61AD /* background.jpg */; };
+		68BC07851DF3F5BE004C61AD /* omikuji_body.png in Resources */ = {isa = PBXBuildFile; fileRef = 68BC07811DF3F5BE004C61AD /* omikuji_body.png */; };
+		68BC07861DF3F5BE004C61AD /* omikuji_head.png in Resources */ = {isa = PBXBuildFile; fileRef = 68BC07821DF3F5BE004C61AD /* omikuji_head.png */; };
+		68BC07871DF3F5BE004C61AD /* omikuji_stick.png in Resources */ = {isa = PBXBuildFile; fileRef = 68BC07831DF3F5BE004C61AD /* omikuji_stick.png */; };
+		68BC078B1DFB0973004C61AD /* down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68BC07891DFB0973004C61AD /* down.mp3 */; };
+		68BC078C1DFB0973004C61AD /* lucky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68BC078A1DFB0973004C61AD /* lucky.mp3 */; };
+		68BC07921DFD6A81004C61AD /* chukichi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68BC078D1DFD6A81004C61AD /* chukichi.mp3 */; };
+		68BC07931DFD6A81004C61AD /* kichi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68BC078E1DFD6A81004C61AD /* kichi.mp3 */; };
+		68BC07941DFD6A81004C61AD /* kyo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68BC078F1DFD6A81004C61AD /* kyo.mp3 */; };
+		68BC07951DFD6A81004C61AD /* shokichi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68BC07901DFD6A81004C61AD /* shokichi.mp3 */; };
+		68BC07961DFD6A81004C61AD /* suekichi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68BC07911DFD6A81004C61AD /* suekichi.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		68BC07741DF3F50C004C61AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68BC07771DF3F50C004C61AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68BC07791DF3F50C004C61AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68BC07801DF3F5BE004C61AD /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		68BC07811DF3F5BE004C61AD /* omikuji_body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = omikuji_body.png; sourceTree = "<group>"; };
+		68BC07821DF3F5BE004C61AD /* omikuji_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = omikuji_head.png; sourceTree = "<group>"; };
+		68BC07831DF3F5BE004C61AD /* omikuji_stick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = omikuji_stick.png; sourceTree = "<group>"; };
+		68BC07891DFB0973004C61AD /* down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = down.mp3; sourceTree = "<group>"; };
+		68BC078A1DFB0973004C61AD /* lucky.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lucky.mp3; sourceTree = "<group>"; };
+		68BC078D1DFD6A81004C61AD /* chukichi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chukichi.mp3; sourceTree = "<group>"; };
+		68BC078E1DFD6A81004C61AD /* kichi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kichi.mp3; sourceTree = "<group>"; };
+		68BC078F1DFD6A81004C61AD /* kyo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kyo.mp3; sourceTree = "<group>"; };
+		68BC07901DFD6A81004C61AD /* shokichi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shokichi.mp3; sourceTree = "<group>"; };
+		68BC07911DFD6A81004C61AD /* suekichi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = suekichi.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,8 @@
 		68BC076C1DF3F50C004C61AD /* omikuji20161205 */ = {
 			isa = PBXGroup;
 			children = (
+				68BC07881DFB0973004C61AD /* sound */,
+				68BC077F1DF3F5BE004C61AD /* image */,
 				68BC076D1DF3F50C004C61AD /* AppDelegate.swift */,
 				68BC076F1DF3F50C004C61AD /* ViewController.swift */,
 				68BC07711DF3F50C004C61AD /* Main.storyboard */,
@@ -62,6 +86,31 @@
 				68BC07791DF3F50C004C61AD /* Info.plist */,
 			);
 			path = omikuji20161205;
+			sourceTree = "<group>";
+		};
+		68BC077F1DF3F5BE004C61AD /* image */ = {
+			isa = PBXGroup;
+			children = (
+				68BC07801DF3F5BE004C61AD /* background.jpg */,
+				68BC07811DF3F5BE004C61AD /* omikuji_body.png */,
+				68BC07821DF3F5BE004C61AD /* omikuji_head.png */,
+				68BC07831DF3F5BE004C61AD /* omikuji_stick.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		68BC07881DFB0973004C61AD /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				68BC078D1DFD6A81004C61AD /* chukichi.mp3 */,
+				68BC078E1DFD6A81004C61AD /* kichi.mp3 */,
+				68BC078F1DFD6A81004C61AD /* kyo.mp3 */,
+				68BC07901DFD6A81004C61AD /* shokichi.mp3 */,
+				68BC07911DFD6A81004C61AD /* suekichi.mp3 */,
+				68BC07891DFB0973004C61AD /* down.mp3 */,
+				68BC078A1DFB0973004C61AD /* lucky.mp3 */,
+			);
+			path = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +172,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68BC07941DFD6A81004C61AD /* kyo.mp3 in Resources */,
 				68BC07781DF3F50C004C61AD /* LaunchScreen.storyboard in Resources */,
+				68BC07931DFD6A81004C61AD /* kichi.mp3 in Resources */,
+				68BC07961DFD6A81004C61AD /* suekichi.mp3 in Resources */,
+				68BC07841DF3F5BE004C61AD /* background.jpg in Resources */,
+				68BC07871DF3F5BE004C61AD /* omikuji_stick.png in Resources */,
+				68BC07851DF3F5BE004C61AD /* omikuji_body.png in Resources */,
+				68BC078C1DFB0973004C61AD /* lucky.mp3 in Resources */,
 				68BC07751DF3F50C004C61AD /* Assets.xcassets in Resources */,
+				68BC07921DFD6A81004C61AD /* chukichi.mp3 in Resources */,
+				68BC07861DF3F5BE004C61AD /* omikuji_head.png in Resources */,
+				68BC07951DFD6A81004C61AD /* shokichi.mp3 in Resources */,
+				68BC078B1DFB0973004C61AD /* down.mp3 in Resources */,
 				68BC07731DF3F50C004C61AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
